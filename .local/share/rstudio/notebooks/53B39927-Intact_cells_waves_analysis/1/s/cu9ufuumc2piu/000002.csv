@@ -1,5 +1,0 @@
-"0","## Setting enviroment"
-"0","knitr::opts_chunk$set("
-"0","  comment = '', fig.width= 6, fig.asp = 0.8, warning=FALSE, message=FALSE, results='hide', include=FALSE, echo=FALSE)"
-"2","Error in loadNamespace(x) : there is no package called ‘knitr’
-"
