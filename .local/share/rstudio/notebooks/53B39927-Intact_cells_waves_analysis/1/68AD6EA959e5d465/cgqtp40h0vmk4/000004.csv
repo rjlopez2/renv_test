@@ -1,0 +1,10 @@
+"0","pacman::p_load(here, fs, # folder's system navigation,
+               readxl,
+               readr,
+               cowplot,
+               purrr, dplyr, tidyr, stringr, kableExtra, # wrangling data
+               ggplot2, ungeviz, # piloting
+               lmerTest, broom.mixed, emmeans) # tools for mixed effect model computation and multiple comparison
+"
+"2","Error in loadNamespace(x) : there is no package called ‘pacman’
+"
