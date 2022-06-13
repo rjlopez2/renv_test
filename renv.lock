@@ -1,3 +1,5 @@
+reduce number of packages again for running test
+13b1c31
 {
   "R": {
     "Version": "4.1.1",
@@ -9,21 +11,43 @@
     ]
   },
   "Packages": {
-    "yaml": {
-      "Package": "yaml",
-      "Version": "2.3.5",
-      "Source": "Repository",
-      "Repository": "CRAN",
-      "Hash": "458bb38374d73bf83b1bb85e353da200",
-      "Requirements": []
+    "AnlysisOfWaves": {
+      "Package": "AnlysisOfWaves",
+      "Version": "0.0.0.9000",
+      "Source": "GitHub",
+      "RemoteType": "github",
+      "RemoteHost": "api.github.com",
+      "RemoteRepo": "AnlysisOfWaves",
+      "RemoteUsername": "rjlopez2",
+      "RemoteRef": "e3cc2a3",
+      "RemoteSha": "e3cc2a3042ba83b8c22bf0cf30d0ca7700087f2d",
+      "Hash": "a0e9315c0886446e61b7cc716e0f0ce5",
+      "Requirements": [
+        "attempt",
+        "broom",
+        "car",
+        "colorspace",
+        "dplyr",
+        "forcats",
+        "ggbeeswarm",
+        "ggnewscale",
+        "ggplot2",
+        "ggpubr",
+        "ijtiff",
+        "magrittr",
+        "purrr",
+        "qqplotr",
+        "readxl",
+        "rlang",
+        "rstatix",
+        "stringr",
+        "tidyr",
+        "tidyselect"
+      ]
     },
-    "zeallot": {
-      "Package": "zeallot",
-      "Version": "0.1.0",
+    "DEoptimR": {
+      "Package": "DEoptimR",
+      "Version": "1.0-11",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "ee9b643aa8331c45d8d82eb3a137c9bc",
-      "Requirements": []
-    }
-  }
-}
+      "Hash": "b18b34cfbf932e17803c2e3e4b1a2d2a",
