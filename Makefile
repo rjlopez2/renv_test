@@ -39,6 +39,11 @@ $(projekt).tar.gz:
 
 clean:
 	rm -f code/$(HTML_FILES)
+	rm -dR .local
+	rm -dR .config
+	rm -dR .cache
+	rm -f renv/.gitignore
+	rm -dR renv/library/
 
 
 test:
